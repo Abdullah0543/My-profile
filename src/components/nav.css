@@ -1,0 +1,32 @@
+.label-check {
+    display: none;
+  }
+  
+  .hamburger-label {
+    width: 30px;
+    height: 20px;
+    display: block;
+    cursor: pointer;
+  }
+  
+  .hamburger-label div {
+    width: 23px;
+    height: 2px;
+    background-color: #000000;
+    position: absolute;
+  }
+  
+  .line1 {
+    transition: all .3s;
+  }
+  
+  .line2 {
+    margin: 7px 0 0 0;
+    transition: 0.3s;
+  }
+  
+  .line3 {
+    margin: 14px 0px 0 0;
+    transition: 0.3s;
+  }
+  
