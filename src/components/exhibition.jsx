@@ -9,10 +9,8 @@ function exhibition() {
             <div className='mt-10 py-10 px-5  flex gap-9 justify-center flex-wrap '> 
                <Cards />
                <Cards />
-               <Cards />
-               <Cards />
-               <Cards />
-               <Cards />
+              
+             
             </div>
         </>
     )

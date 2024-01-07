@@ -2,7 +2,7 @@ import "./nav.css"
 export default function Nav() {
   return (
     <>
-      <nav className="px-11 py-5 bg-slate-100 ">
+      <nav className="px-11 py-5 absolute top-3 ">
 
 
         <div className="hidden max-sm:block">
@@ -18,12 +18,12 @@ export default function Nav() {
 
 
         <ul className="flex gap-4 max-sm:hidden">
-          <li><a className="text-s max-md:text-sm " href="#">الصفحة الرئسية</a></li>
-          <li><a className="text-s max-md:text-sm" href="#">مهاراتي</a></li>
-          <li><a className="text-s max-md:text-sm" href="#">معرض الأعمال</a></li>
-          <li><a className="text-s max-md:text-sm" href="#">مقالات ومدونة</a></li>
-          <li><a className="text-s max-md:text-sm" href="#">سيرة ذاتية</a></li>
-          <li><a className="text-s max-md:text-sm" href="#">تواصل معي</a></li>
+          <li><a className=" texts text-s max-md:text-sm " href="#">الصفحة الرئسية</a></li>
+          <li><a className=" texts text-s max-md:text-sm " href="#">مهاراتي</a></li>
+          <li><a className=" texts text-s max-md:text-sm " href="#">معرض الأعمال</a></li>
+          <li><a className=" texts text-s max-md:text-sm " href="#">مقالات ومدونة</a></li>
+          <li><a className=" texts text-s max-md:text-sm " href="#">سيرة ذاتية</a></li>
+          <li><a className=" texts text-s max-md:text-sm " href="#">تواصل معي</a></li>
         </ul>
       </nav>
     </>
